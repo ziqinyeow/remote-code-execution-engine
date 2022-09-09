@@ -1,0 +1,11 @@
+{
+    "rmq": {
+        "host": "rabbitmq",
+        "exchange": "remoteCodeExecutionEngine.Exchange",
+        "routing_key": "remoteCodeExecutionEngine.Key",
+        "queue_name": "remoteCodeExecutionEngine.Queue",
+        "debug": {
+            "logs": true
+        }
+    }
+}

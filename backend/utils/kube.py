@@ -1,3 +1,4 @@
+from kubernetes import client, config
 import logging
 
 logging.basicConfig(
@@ -5,5 +6,3 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-if __name__ == "__main__":
-    pass

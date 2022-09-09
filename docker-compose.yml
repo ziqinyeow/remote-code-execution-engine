@@ -10,14 +10,14 @@ services:
     networks: 
       - remoteCodeExecutionEngineNetwork
   
-  # rabbitmq:
-  #   image: rabbitmq:3-management
-  #   volumes:
-  #     - ./rabbitmq:/var/lib/rabbitmq
-  #   ports:
-  #     - 15672:15672
-  #   networks: 
-  #     - remoteCodeExecutionEngineNetwork
+  rabbitmq:
+    image: rabbitmq:3-management
+    volumes:
+      - ./rabbitmq:/var/lib/rabbitmq
+    ports:
+      - 15672:15672
+    networks: 
+      - remoteCodeExecutionEngineNetwork
   
   redis:
     image: redis
